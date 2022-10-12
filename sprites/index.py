@@ -35,18 +35,29 @@ player_sprites = {
         pygame.image.load('sprites/player/Jump__007.png'),
         pygame.image.load('sprites/player/Jump__008.png'),
         pygame.image.load('sprites/player/Jump__009.png')
+    ]
+}
+
+objects_sprites = {
+    'obstacles': [
+        pygame.image.load('sprites/objects/Stone.png'),
+        pygame.image.load('Crate.png'),
+        pygame.image.load('sprites/objects/Tree_1.png')
+    ]
+}
+
+backgrounds_image = [
+    pygame.image.load('sprites/background/BG.png')
+]
+
+buttons_sprites = {
+    'play' : [
+        pygame.image.load("sprites/menu_sprites/btn1.png"),
+        pygame.image.load("sprites/menu_sprites/btn2.png")
     ],
 
-    'dead': [
-        pygame.image.load('sprites/player/Dead__000.png'),
-        pygame.image.load('sprites/player/Dead__001.png'),
-        pygame.image.load('sprites/player/Dead__002.png'),
-        pygame.image.load('sprites/player/Dead__003.png'),
-        pygame.image.load('sprites/player/Dead__004.png'),
-        pygame.image.load('sprites/player/Dead__005.png'),
-        pygame.image.load('sprites/player/Dead__006.png'),
-        pygame.image.load('sprites/player/Dead__007.png'),
-        pygame.image.load('sprites/player/Dead__008.png'),
-        pygame.image.load('sprites/player/Dead__009.png')
+    'quit' : [
+        pygame.image.load("sprites/menu_sprites/quit1.png"),
+        pygame.image.load("sprites/menu_sprites/quit2.png")
     ]
 }
