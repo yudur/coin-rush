@@ -41,7 +41,7 @@ player_sprites = {
 objects_sprites = {
     'obstacles': [
         pygame.image.load('sprites/objects/Stone.png'),
-        pygame.image.load('Crate.png'),
+        pygame.image.load('sprites/objects/Crate.png'),
         pygame.image.load('sprites/objects/Tree_1.png')
     ]
 }
